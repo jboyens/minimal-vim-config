@@ -1,0 +1,7 @@
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  jr: JR Boyens; jboyens
+email:
+  prefix: pair
+  domain: fooninja.org
+  no_solo_prefix: true
