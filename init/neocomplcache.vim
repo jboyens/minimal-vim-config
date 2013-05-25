@@ -56,4 +56,4 @@ if has('conceal')
 endif
 
 " Tell Neosnippet about the other snippets
-let g:neosnippet#snippets_directory='/Users/mopub/.vim/snippets'
+let g:neosnippet#snippets_directory='~/.vim/snippets'
