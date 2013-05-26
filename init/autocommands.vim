@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.jst set filetype=php
+au BufRead,BufNewFile *.jst set filetype=htmldjango
