@@ -1,5 +1,27 @@
-snippet :desc
-    options head
-        describe(${1:#:test_description}, function() {
-            ${0:TARGET}
-        });
+snippet desc
+options head
+    describe("${1:#:test_description}", function() {
+        ${0:TARGET}
+    });
+
+snippet it
+options indent,word
+    it("${1:#:spec_description}", function() {
+        ${0:TARGET}
+    });
+
+snippet bef
+options indent,word
+    beforeEach("${1:#:spec_description}", function() {
+        ${0:TARGET}
+    });
+
+snippet aft
+options indent,word
+    afterEach("${1:#:spec_description}", function() {
+        ${0:TARGET}
+    });
+
+snippet exp
+options head
+    expect(${1:#:expectation}).to${2:#:matcher}(${0:});
